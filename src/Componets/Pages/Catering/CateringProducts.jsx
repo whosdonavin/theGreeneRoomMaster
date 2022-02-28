@@ -90,7 +90,7 @@ const CateringProducts = () => {
   }, []);
   useEffect(() => {
     axios
-      .get("https://thegreeneroommaster.herokuapp.com/api/catering/Platters")
+      .get("https://thegreeneroommaster.herokuapp.com/api/catering/platters")
       .then((res) => {
         setPlatters(res.data);
       });
